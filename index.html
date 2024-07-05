@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        background-color: palevioletred;
+        border: 3px solid;
+        height: 500px;
+        width: 500px;
+        position: relative;
+        left: 330px;
+        padding-left: 100px;
+        padding-top: 100px;
+      }
+      h1 {
+        position: relative;
+        left: 600px;
+      }
+      .md{
+        position: relative;
+        left: 170px;
+        bottom: 346px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <div>
+      <h3>
+        Name :<br />
+        <br>
+        Mobile Number : <br />
+        <br>
+        E-Mail : <br> 
+        <br>
+        DoB :<BR>
+        </BR>
+        Gender : <br /> 
+        <br>
+        Address : <br>
+        <br>
+        Password :<br>
+        <br>
+        Confirm Password :
+      </h3>
+      <h3 class="md">
+        <input type="text" id="fname"/> <br>
+        <br>
+        <input type="tel" id="tel" pattern="[0-9]{10}"/><br>
+        <br>
+        <input type="mail" id="mail"><br>
+        <br>
+        <input type="date" id="dob"><br>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="others">others</label>
+        <input type="radio" name="gender" id="oters" value="others" checked>
+        <br>
+        <br>
+        <input type="text" id="address"><br>
+        <br>
+        <input type="password" id="password"><br>
+        <br>
+        <input type="password" id="password"><br>
+      </h3>
+    </div>
+   
+  </body>
+</html>
